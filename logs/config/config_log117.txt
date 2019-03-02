@@ -1,0 +1,49 @@
+Begin time: 2019-02-22 01:14:33
+
+
+Config params: 
+seed: 48
+use_pro_name: 3-36
+random_perturb: False
+object_xml: new_cube.xml
+to_train: False
+train_pro: True
+use_new_model: False
+adv_init: False
+use_render: True
+use_new_name: 
+is_human: True
+log_name: 117
+use_pro_new: False
+
+
+
+Other params: 
+alpha: 0.2
+early stop num : 45
+num samples: 128
+adv batch update: 10
+pro batch update: 10
+write log update: 5
+random init: False
+seed: 48
+
+
+
+Force config: 
+0.0 0.0 0.0 0.0 0.0 0.0
+-3.0 0.0 0.0 0.0 0.0 0.0
+0.0 -3.0 0.0 0.0 0.0 0.0
+3.0 0.0 0.0 0.0 0.0 0.0
+0.0 3.0 0.0 0.0 0.0 0.0
+0.0 0.0 3.0 0.0 0.0 0.0
+0.0 0.0 -0.5 0.0 0.0 0.0
+
+0:nothing
+1:left
+2:outward
+3:right
+4:inside
+5:up
+6:down
+

@@ -1,0 +1,40 @@
+Begin time: 2019-02-19 19:09:36
+
+
+Config params: 
+use_render: True
+log_name: 101
+object_xml: bottle.xml
+random_perturb: False
+train_pro: True
+adv_init: False
+is_human: True
+
+
+
+Other params: 
+alpha: 0.2
+num patches: 128
+adv batch update: 9
+pro batch update: 9
+random init: False
+
+
+
+Force config: 
+0.0 0.0 0.0 0.0 0.0 0.0
+-3.5 0.0 0.0 0.0 0.0 0.0
+0.0 -3.5 0.0 0.0 0.0 0.0
+3.5 0.0 0.0 0.0 0.0 0.0
+0.0 3.5 0.0 0.0 0.0 0.0
+0.0 0.0 3.5 0.0 0.0 0.0
+0.0 0.0 -1.0 0.0 0.0 0.0
+
+0:nothing
+1:left
+2:outward
+3:right
+4:inside
+5:up
+6:down
+

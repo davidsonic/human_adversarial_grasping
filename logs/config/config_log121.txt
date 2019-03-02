@@ -1,0 +1,49 @@
+Begin time: 2019-02-23 00:12:59
+
+
+Config params: 
+use_render: True
+use_pro_name: 117-9
+adv_init: False
+log_name: 121
+to_train: False
+use_pro_new: False
+use_new_name: 
+seed: 48
+random_perturb: False
+is_human: True
+train_pro: True
+object_xml: half-nut.xml
+use_new_model: False
+
+
+
+Other params: 
+alpha: 0.5
+early stop num : 45
+num samples: 128
+adv batch update: 2
+pro batch update: 10
+write log update: 5
+random init: False
+seed: 48
+
+
+
+Force config: 
+0.0 0.0 0.0 0.0 0.0 0.0
+-5.5 0.0 0.0 0.0 0.0 0.0
+0.0 -5.5 0.0 0.0 0.0 0.0
+5.5 0.0 0.0 0.0 0.0 0.0
+0.0 5.5 0.0 0.0 0.0 0.0
+0.0 0.0 5.5 0.0 0.0 0.0
+0.0 0.0 -0.3 0.0 0.0 0.0
+
+0:nothing
+1:left
+2:outward
+3:right
+4:inside
+5:up
+6:down
+

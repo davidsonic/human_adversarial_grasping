@@ -1,0 +1,49 @@
+Begin time: 2019-02-20 01:30:36
+
+
+Config params: 
+use_new_name: 23
+use_pro_name: 3-27
+log_name: 103
+to_train: False
+train_pro: True
+use_new_model: False
+random_perturb: False
+use_pro_new: False
+adv_init: False
+seed: 48
+use_render: True
+is_human: True
+object_xml: bottle.xml
+
+
+
+Other params: 
+alpha: 0.2
+early stop num : 45
+num samples: 128
+adv batch update: 10
+pro batch update: 10
+write log update: 5
+random init: False
+seed: 48
+
+
+
+Force config: 
+0.0 0.0 0.0 0.0 0.0 0.0
+-3.5 0.0 0.0 0.0 0.0 0.0
+0.0 -3.5 0.0 0.0 0.0 0.0
+3.5 0.0 0.0 0.0 0.0 0.0
+0.0 3.5 0.0 0.0 0.0 0.0
+0.0 0.0 3.5 0.0 0.0 0.0
+0.0 0.0 -1.0 0.0 0.0 0.0
+
+0:nothing
+1:left
+2:outward
+3:right
+4:inside
+5:up
+6:down
+

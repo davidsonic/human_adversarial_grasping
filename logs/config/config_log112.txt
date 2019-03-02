@@ -1,0 +1,49 @@
+Begin time: 2019-02-21 22:34:31
+
+
+Config params: 
+random_perturb: False
+adv_init: False
+use_pro_new: False
+object_xml: round-nut.xml
+use_new_model: False
+use_new_name: 
+use_render: True
+is_human: True
+train_pro: True
+log_name: 112
+use_pro_name: 3-9
+seed: 48
+to_train: False
+
+
+
+Other params: 
+alpha: 0.2
+early stop num : 45
+num samples: 128
+adv batch update: 10
+pro batch update: 10
+write log update: 5
+random init: False
+seed: 48
+
+
+
+Force config: 
+0 0 0 0 0 0
+-6 0 0 0 0 0
+0 -6 0 0 0 0
+6 0 0 0 0 0
+0 6 0 0 0 0
+0 0 6 0 0 0
+0 0 -1 0 0 0
+
+0:nothing
+1:left
+2:outward
+3:right
+4:inside
+5:up
+6:down
+
