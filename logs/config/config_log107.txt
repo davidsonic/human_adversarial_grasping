@@ -3,30 +3,21 @@ Begin time: 2019-02-21 00:28:26
 
 Config params: 
 use_render: True
-to_train: False
 random_perturb: False
 is_human: True
 object_xml: cube.xml
-use_pro_new: False
 log_name: 107
 train_pro: True
-seed: 48
-use_new_name: 23
-use_pro_name: 3-27
-use_new_model: False
 adv_init: False
 
 
 
 Other params: 
 alpha: 0.25
-early stop num : 45
-num samples: 128
-adv batch update: 10
-pro batch update: 10
-write log update: 5
+num patches: 128
+adv batch update: 9
+pro batch update: 9
 random init: False
-seed: 48
 
 
 

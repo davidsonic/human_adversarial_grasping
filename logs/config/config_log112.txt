@@ -4,29 +4,20 @@ Begin time: 2019-02-21 22:34:31
 Config params: 
 random_perturb: False
 adv_init: False
-use_pro_new: False
 object_xml: round-nut.xml
-use_new_model: False
-use_new_name: 
 use_render: True
 is_human: True
 train_pro: True
 log_name: 112
-use_pro_name: 3-9
-seed: 48
-to_train: False
 
 
 
 Other params: 
 alpha: 0.2
-early stop num : 45
-num samples: 128
-adv batch update: 10
-pro batch update: 10
-write log update: 5
+num patches: 128
+adv batch update: 9
+pro batch update: 9
 random init: False
-seed: 48
 
 
 

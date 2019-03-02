@@ -3,30 +3,22 @@ Begin time: 2019-02-20 01:05:38
 
 Config params: 
 object_xml: bottle.xml
-seed: 48
-adv_init: False
 use_render: True
-use_pro_name: 3-27
 is_human: True
-use_pro_new: False
-to_train: False
 log_name: 102
+adv_init: False
 train_pro: True
 random_perturb: False
-use_new_model: False
-use_new_name: 23
+
 
 
 
 Other params: 
 alpha: 0.2
-early stop num : 45
-num samples: 128
-adv batch update: 10
-pro batch update: 10
-write log update: 5
+num patches: 128
+adv batch update: 9
+pro batch update: 9
 random init: False
-seed: 48
 
 
 

@@ -3,30 +3,21 @@ Begin time: 2019-02-23 00:35:19
 
 Config params: 
 use_render: True
-use_pro_name: 117-9
-seed: 48
 log_name: 122
 object_xml: half-nut.xml
-use_new_model: False
-to_train: False
 adv_init: False
-use_new_name: 
 random_perturb: False
 train_pro: True
-use_pro_new: False
 is_human: True
 
 
 
 Other params: 
 alpha: 0.5
-early stop num : 45
-num samples: 128
-adv batch update: 2
-pro batch update: 10
-write log update: 5
+num patches: 128
+adv batch update: 9
+pro batch update: 9
 random init: False
-seed: 48
 
 
 
